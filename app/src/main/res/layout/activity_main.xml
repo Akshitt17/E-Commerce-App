@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="191dp"
+        android:fontFamily="@font/font1"
+        android:text="Begin Exploring    the Extraordinary"
+        android:textColor="#C5C1C6"
+        android:textColorHighlight="#288F8F"
+        android:textSize="30dp" />
+<TextView
+        android:id="@+id/slogan_overlay"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="192dp"
+        android:fontFamily="@font/font1"
+        android:text="Begin Exploring    the Extraordinary"
+        android:textColor="#B475D4"
+        android:textColorHighlight="#288F8F"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:text="Already have an account? Login"
+        android:textColor="#DCDCE1"
+        android:textSize="18dp" />
+
+    <Button
+    android:id="@+id/Signup_Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="600dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/input_design"
+    android:text="New User? Sign up"
+    android:textColor="#DCDCE1"
+    android:textSize="18dp" />
+
+</RelativeLayout>
